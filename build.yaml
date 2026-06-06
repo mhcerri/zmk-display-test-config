@@ -24,3 +24,4 @@ shield: ["mykeebie"]
 include:
   - board: nice_nano
     shield: mykeebie
+    snippet: zmk-usb-logging
