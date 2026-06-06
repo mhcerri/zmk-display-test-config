@@ -78,8 +78,8 @@
         multiplex-ratio = <31>;
         segment-remap;
         com-invdir;
-        //com-sequential;
-        //inversion-on;
+        com-sequential;
+        inversion-on;
         prechargep = <0x22>;
 
 	ready-time-ms = <20>;
