@@ -19,3 +19,4 @@ features:
 
 requires:
   - pro_micro
+  - i2c_oled
