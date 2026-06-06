@@ -1,0 +1,6 @@
+if SHIELD_MYKEEBIE
+
+config ZMK_KEYBOARD_NAME
+    default "mykeebie"
+
+endif # SHIELD_MYKEEBIE
