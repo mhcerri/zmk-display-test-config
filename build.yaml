@@ -19,9 +19,9 @@
 #
 ---
 
-board: ["nice_nano"]
+board: ["nice_nano//zmk"]
 shield: ["mykeebie"]
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: mykeebie
     snippet: zmk-usb-logging
