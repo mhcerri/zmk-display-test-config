@@ -85,7 +85,7 @@
 &pro_micro_i2c {
     status = "okay";
     compatible = "nordic,nrf-twim";
-    zephyr,concat-buf-size = <128>;
+    zephyr,concat-buf-size = <256>;
 
     display: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
