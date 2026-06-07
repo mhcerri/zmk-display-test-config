@@ -98,7 +98,9 @@
         multiplex-ratio = <63>;
         segment-remap;
         com-invdir;
-        com-sequential;
+        // Most 128x32 SSD1306 modules use alternative COM pin layout.
+        // Enabling sequential layout causes every-other-row artifacts.
+        //com-sequential;
         //inversion-on;
         prechargep = <0x22>;
 
