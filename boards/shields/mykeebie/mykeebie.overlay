@@ -64,6 +64,7 @@
 //
 &pro_micro_i2c {
     status = "okay";
+    compatible = "nordic,nrf-twim";
 
     display: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
